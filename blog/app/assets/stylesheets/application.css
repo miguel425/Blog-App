@@ -13,3 +13,111 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+  font-size: x-large;
+  font-family: "Roboto", sans-serif;
+}
+
+.welcome-container {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2rem;
+}
+
+img {
+  width: 300px;
+}
+
+li {
+  list-style: none;
+  color: black;
+  text-align: center;
+}
+
+ul {
+  padding-left: 0;
+}
+
+h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+.container_show {
+  background-color: #212529;
+  text-align: left;
+  padding: 1rem 5rem 1rem 5rem;
+  margin: 2rem 6rem 2rem 6rem;
+}
+
+#show_h1 {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+
+#show_p {
+  font-size: 1.1rem;
+}
+
+#wc {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-right: 400px;
+}
+
+#to {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+#myblog {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-left: 400px;
+}
+
+.circles-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.circles {
+  width: 200px;
+  height: 200px;
+  background-color: #212529;
+  border-radius: 50%;
+}
+
+.circles li {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
